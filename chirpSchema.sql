@@ -1,7 +1,7 @@
 CREATE DATABASE chirpy;
 USE chirpy;
 
-CREATE TABLE `chirps` (
+CREATE TABLE chirps (
   id int AUTO_INCREMENT,
   author varchar(30) NOT NULL,
   chirp varchar(30) NOT NULL,
